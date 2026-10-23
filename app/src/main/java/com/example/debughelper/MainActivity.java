@@ -31,10 +31,14 @@ public class MainActivity extends Activity {
         root.setPadding(dp(20), dp(22), dp(20), dp(28));
         scroll.addView(root);
 
-        TextView welcome = text("Welcome, Shameerudeen!", 23, 0xFF0B7A75);
+        TextView welcome = text("WELCOME TO SHAMEERUDEEN TESTING APP", 23, 0xFF0B7A75);
         welcome.setTypeface(null, 1);
         root.addView(welcome);
         gap(root, 8);
+        TextView thanks = text("THANKS FOR BEING THE PART", 17, 0xFF44546A);
+        thanks.setTypeface(null, 1);
+        root.addView(thanks);
+        gap(root, 12);
         TextView title = text("Android Debugging Helper", 25, 0xFF172B4D);
         title.setTypeface(null, 1);
         root.addView(title);
